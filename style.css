@@ -4,12 +4,13 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 body{
-    background-color:rgb(112, 92, 92);
+    background-color:rgb(225, 156, 6);
     width:100vw;
     height:100vh;
     display:flex;
     align-items:center;
     justify-content:center;
+    background-image: url("qz.jpg");
 }
 
 .app{
@@ -43,8 +44,8 @@ body{
 
 .btn{
     height:30px;
-    background-color:rgba(171, 171, 125, 0.76);
-    transition;
+    background-color:rgba(115, 187, 235, 0.76);
+   
     box-shadow: 5px 7px 8px;
 }
 .btn:hover{
