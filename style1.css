@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration:none;
+    /* text-align: center; */
+
+}
+body{
+    background-color: aliceblue;
+    width:100vw;
+    height:100vw;
+
+}
+.formheader{
+    /* max-width: 700px; */
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    min-height: 100px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color: beige;
+    border-bottom: rgb(144, 22, 165) solid 1px;
+    margin-bottom:20px
+    
+}
+.formrightcontainar{
+    /* display:flex;
+    justify-content: space-between; */
+    padding:20px;
+    /* margin:20px; */
+
+}
+.formrightcontainar a{
+    /* display:flex;
+    justify-content: space-between; */
+    padding:10px;
+    margin:5px;
+    font-size:larger;
+    font-weight:bold;
+    
+}
+.formleftcontainar{
+    padding:10px;
+    margin:10px;
+}
+.formdetail{
+    display:flex; 
+    justify-content: center;
+    text-align:center ;
+    /* max-width: 500px; */
+    
+}
+.bothbutton{
+display:flex;
+justify-content: space-evenly;
+padding:20px;
+}
+#btn{
+    border:solid black 2px;
+    border-radius: 5px;
+    height:20px;
+    width:85px;
+    transition:.6s;
+    
+}
+#btn:hover{
+    transform:scale(1.1);
+    background-color: rgb(223, 163, 90);
+    color:aliceblue;
+}
+#subtn{
+   transition:.6s;
+}
+#subtn:hover{
+    transform:scale(1.1);
+    background-color: rgb(223, 163, 90);
+    color:aliceblue;
+}
